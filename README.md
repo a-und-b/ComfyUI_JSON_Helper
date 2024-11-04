@@ -16,7 +16,7 @@ This custom node for ComfyUI provides a simple way to convert JSON strings to JS
    ```
 2. Clone this repository:
    ```
-   git clone https://github.com/yourusername/ComfyUI-JSONHelper.git
+   git clone https://github.com/a-und-b/ComfyUI-JSONHelper.git
    ```
 3. Restart ComfyUI
 
