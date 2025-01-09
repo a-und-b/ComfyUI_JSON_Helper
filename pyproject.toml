@@ -1,0 +1,14 @@
+[project]
+name = "json_helper"
+description = "Simple custom node for ComfyUI that converts JSON strings to JSON objects."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/a-und-b/ComfyUI_JSON_Helper"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "a-und-b"
+DisplayName = "ComfyUI_JSON_Helper"
+Icon = ""
