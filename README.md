@@ -8,6 +8,11 @@ This custom node for ComfyUI provides a simple way to convert JSON strings to JS
 - Handles JSON parsing errors gracefully
 - Easy to integrate into existing ComfyUI workflows
 
+## Requirements
+
+- ComfyUI
+- Python 3.10+
+
 ## Installation
 
 1. Navigate to your ComfyUI custom nodes folder:
