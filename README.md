@@ -21,16 +21,22 @@ This custom node for ComfyUI provides a simple way to convert JSON strings to JS
    ```
 2. Clone this repository:
    ```
-   git clone https://github.com/a-und-b/ComfyUI-JSONHelper.git
+   git clone https://github.com/a-und-b/ComfyUI_JSON_Helper.git
    ```
 3. Restart ComfyUI
 
+## Example workflow
+
+![Example workflow](example_workflows/json-helper-preview.png)
+
+Load [`example_workflows/json-helper-example.json`](example_workflows/json-helper-example.json) to see the node under the **utils** category with sample JSON text.
+
 ## Usage
 
-After installation, you'll find a new node called "JSON String to Object" in the node menu. 
+After installation, you'll find **JSON String to Object** under **utils**.
 
-1. Connect the output of a node that produces a JSON string to the input of this node.
-2. The output of this node will be a JSON object, which can be connected to nodes that expect JSON input.
+1. Connect the output of a node that produces a JSON string to the input of this node (or paste JSON into the widget).
+2. The output is a JSON object for nodes that expect structured JSON.
 
 ## Error Handling
 
