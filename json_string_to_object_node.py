@@ -21,7 +21,8 @@ class JSONStringToObjectNode:
     RETURN_TYPES = ("JSON",)
     RETURN_NAMES = ("json",)
     FUNCTION = "convert_string_to_json"
-    CATEGORY = "utils"
+    CATEGORY = "AB/Utils"
+    SEARCH_ALIASES = ["JSON String to Object", "parse json", "json load", "string to json"]
     DESCRIPTION = (
         "Parses a JSON string into a JSON object so it can connect to nodes "
         "that expect structured JSON input."
@@ -41,5 +42,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "JSONStringToObjectNode": "JSON String to Object"
+    "JSONStringToObjectNode": "AB JSON Parse"
 }
